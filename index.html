@@ -1,0 +1,31 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Pixelshop</title>
+		<meta charset="utf-8"/>
+		<style>
+			
+			#canv{
+				position:fixed;
+				left:40%;
+				top:30px;
+				border: 1px solid;
+			}
+
+		</style>
+	</head>
+	<body>
+		Press ESC<br>
+		<div id="divtext" style="display: inline; max-width: 505px;">
+			<textarea id="text" cols="60" rows="30"></textarea><br>
+			<textarea id="anim_text" cols="60" rows="5"></textarea>
+		</div>
+		<canvas id="canv" width="800" height="600" ></canvas>
+		<script src="jquery.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+		<script type="text/javascript" src="help_dot.js"></script>
+		<script type="text/javascript" src="curve.js"></script>
+		<script type="text/javascript" src="shape.js"></script>
+		<script type="text/javascript" src="animation.js"></script>
+	</body>
+</html>
